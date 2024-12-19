@@ -1,42 +1,57 @@
-# element-plus-vite-starter
+# 📦 Element Plus Vite Starter
 
+## 📑 介绍
 > A starter kit for Element Plus with Vite
 
 - Preview: <https://vite-starter.element-plus.org>
 
-This is an example of on-demand element-plus with [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components).
+这是一个结合了 [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components) 的按需引入的 Element Plus 示例项目。
 
-> If you want to import all, it may be so simple that no examples are needed. Just follow [quickstart | Docs](https://element-plus.org/zh-CN/guide/quickstart.html) and import them.
+> 如果您想一次性导入所有组件，可以简单地按照 [快速开始 | Docs](https://element-plus.org/zh-CN/guide/quickstart.html) 的文档操作。
 
-If you just want an on-demand import example `manually`, you can check [unplugin-element-plus/examples/vite](https://github.com/element-plus/unplugin-element-plus/tree/main/examples/vite).
+如果您希望手动实现按需引入的示例，请参考 [unplugin-element-plus/examples/vite](https://github.com/element-plus/unplugin-element-plus/tree/main/examples/vite)。
 
-## Project setup
+## 🚀 快速开始
+
+### ⚙️ 安装依赖
 
 ```bash
-npm install
+bun install
 ```
 
-### Compiles and hot-reloads for development
+### 🖥️ 启动项目
 
 ```bash
-npm run dev
+bun run dev
 ```
 
-### Compiles and minifies for production
+### 🏗️ 构建项目
 
 ```bash
-npm run build
+bun run build
 ```
 
-## Usage
+## 📦 使用
 
 ```bash
-git clone https://github.com/element-plus/element-plus-vite-starter
+git clone https://github.com/Fromsko/element-plus-vite-template.git
 cd element-plus-vite-starter
-npm i
-npm run dev
+bun i
+bun run dev
 ```
 
-### Custom theme
+### 🎨 自定义主题
 
-See `src/styles/element/index.scss`.
+请参阅 `src/styles/element/index.scss` 文件进行主题定制。
+
+## 🙏 鸣谢
+
+感谢以下贡献者和项目，使得本项目得以快速实现和推广：
+
+| 贡献者       | 链接                                        |
+|--------------|---------------------------------------------|
+| **Element Plus** | [Element Plus](https://github.com/element-plus/element-plus) |
+| **Vite**        | [Vite](https://github.com/vitejs/vite) |
+| **unplugin-vue-components** | [unplugin-vue-components](https://github.com/unplugin/unplugin-vue-components) |
+| **Fromsko**      | [Fromsko's GitHub](https://github.com/Fromsko) |
+| **Element Plus Vite Starter** | [element-plus-vite-starter](https://github.com/element-plus/element-plus-vite-starter) |
